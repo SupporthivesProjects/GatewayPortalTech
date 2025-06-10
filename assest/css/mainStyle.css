@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: lighter;
+}
+@font-face {
+  font-family: 'Mazzard';
+  src: url(../font/MazzardH-Light.otf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: 'Mazzard';
+  src: url(../font/MazzardH-Bold.otf);
+  font-weight:800;
+}
+@font-face {
+  font-family: 'Mazzard';
+  src: url(../font/MazzardH-ExtraBold.otf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Mazzard';
+  src: url(../font/MazzardH-ExtraLight.otf);
+  font-weight:300;
+}
+@font-face {
+  font-family: 'Mazzard';
+  src: url(../font/MazzardH-Medium.otf);
+  font-weight:400;
+}
+@font-face {
+  font-family: 'Mazzard';
+  src: url(../font/MazzardH-Regular.otf);
+  font-weight:500;
+}
+@font-face {
+  font-family: 'Mazzard';
+  src: url(../font/MazzardH-SemiBold.otf);
+  font-weight:200;
+}
+@font-face {
+  font-family: 'Mazzard';
+  src: url(../font/MazzardH-Regular.otf);
+  font-weight:300;
+}
+@media (min-width: 576px){
+    .container, .container-sm {
+        max-width: 540px;
+    }
+  }
+  @media (min-width: 768px){
+    .container, .container-md, .container-sm {
+        max-width: 750px;
+    }
+  }
+  @media (min-width: 785px){
+    .container, .container-md, .container-sm {
+        max-width: 785px;
+    }
+  }
+  @media (min-width: 992px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 970px;
+    }
+  }
+  @media (min-width: 1080px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1030px;
+    }
+  }
+  @media (min-width: 1100px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1100px;
+    }
+  }
+  @media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1200px;
+    }
+  }
+  @media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+    }
+  }
+  @media (min-width: 1500px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1390px;
+    }
+  }
+  @media only screen and (min-width: 1600px) and (max-width: 1920px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1440px;
+    }
+  }
+  @media only screen and (min-width: 1921px) and (max-width: 2880px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1440px;
+    } 
+  }
+section{
+    position: relative;
+    padding: 4rem 0;
+    z-index: 1;
+}
+html, body{
+    overflow-x: hidden;
+}
+.bg-image {
+  object-fit: cover;
+}
+.bg-image {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.bg-image:not([class*=absolute]) {
+  position: absolute;
+}
+.navbar-nav{
+  margin-left: 100px;
+  gap: 40px;
+}
+.navbar{
+  padding: 24px 0px;
+}
+.nav-link{
+  color: var(--Base-Off-Black, #0F0F0F) !important;
+  font-family: Mazzard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+.footer {
+  background: var(--Base-Off-Black, #0F0F0F);
+  height: 348px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.footer::after{
+  content: '';
+  background: url(../media/Pattern.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 245px;
+  z-index: -1;
+}
+
+.ul-list h5{
+  color: var(--Base-Off-White, #FAFAFA);
+  font-family: Mazzard;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 161.404%;
+  margin-bottom: 13px;
+}
+.ul-list ul{
+  padding-left: 0px;
+  list-style: none;
+}
+.ul-list li a, .ul-list li p{
+  color: var(--Base-Off-White, #FAFAFA);
+  font-family: Mazzard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 161.404%;
+  margin-bottom: 13px;
+}
+.footer-logo{
+    width: 408px;
+    max-width: 100%;
+}
+.footer-logo img{
+  margin-bottom: 33px;
+}
+.footer-logo p{
+  color: var(--Base-Off-White, #FAFAFA);
+  font-family: Mazzard;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 161.404%;
+}

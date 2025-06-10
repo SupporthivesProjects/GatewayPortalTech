@@ -1,0 +1,16 @@
+https://www.figma.com/design/PSLD8F32bMiShv2m5tSIvE/AD503---Redesign--Business-Services--Gateway-Portal-Tech-Limited?node-id=8218-2468&m=dev
+
+
+font family - Mazzard,Prata
+Team Member : Dhiraj,Rahul,Vijay(Developer)
+Project Lead: Vijay
+Rrporting: Jeet sir
+
+Modules : Header,footer,Home,privacy Policy
+focus: site optimization,Load Time ,site responsive all device
+Focus/problem: Home slider/slider
+
+Task/Member:
+
+Dhiraj:- Who We are, privacy policy,
+Rahul:- home page, get in touch, Solutions Overview
